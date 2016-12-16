@@ -1,0 +1,509 @@
+ @font-face {
+    font-family: Arbutus; /* Имя шрифта */
+    src: url( Arbutus-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+html{
+    font-family: serif;
+}
+
+.fon{
+    background-image: url(fon_1.jpg);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+
+
+.crea{
+        font-family: Arbutus,sans-serif;
+    float: right;
+    font-size: 35px;
+    margin: -37px 0px 0px 66px;
+}
+.crea_min{
+        font-family: Arbutus,sans-serif;
+    float: right;
+    font-size: 35px;
+    margin: -37px 0px 0px 66px;
+}
+.top_meny ul{
+    width: 100%;
+    display: flex;
+    flex-direction:row;  
+    justify-content: flex-end;
+}
+.top_meny ul li{
+font-size: 22px;
+font-family: serif;
+padding: 30px;
+list-style: none;
+}
+
+
+
+
+.logo{
+    position: absolute;
+}
+
+ul li a{
+    text-decoration: none;
+    cursor: pointer; 
+    color: #fff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+ul li a:hover{
+    color:#000;
+    text-decoration: none;
+}
+
+
+
+@-webkit-keyframes deg {
+from {
+    transform: rotate(0deg);
+   }
+to {
+    transform: rotate(360deg);
+    }
+}
+
+
+.anim img{
+    animation: deg 5s infinite linear;
+}
+
+
+
+
+
+
+.h1_{
+        padding-top: 2%;
+    text-align: center;
+    font-size: 38px;
+    color: #fff;
+    font-family: serif;
+    font-family: serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+.navbar   .navbar-default{
+    border-radius: 0px;
+} 
+/**/
+
+@media screen and ( max-width: 992px) { 
+  .hidens{ 
+      display: none
+    }
+}
+
+
+
+
+@media screen and ( max-width: 992px) { 
+  .h1_{ 
+      display: none
+    }
+}
+
+
+
+
+@media screen and ( min-width: 992px) { 
+  .container_max{ 
+      display: none
+    }
+}
+
+
+@media screen and ( min-width: 992px) { 
+  .h1_mobile_pfon{ 
+      display: none
+  
+    }
+}
+@media screen and ( max-width: 992px) { 
+  .logo{ 
+      margin-top: -19px;
+    }
+}
+
+@media screen and ( max-width: 768px) { 
+  .fon{ 
+    background-image: url(fon_1.jpg);
+    height: 760px;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    }
+}
+
+
+.h1_mobile_pfon{       
+    text-align: center;
+    font-size: 38px;
+    color: #fff;
+    font-family: serif;
+    font-family: serif;
+}
+   
+.container_max
+{
+    width: 100%;
+}
+
+
+.pading
+{
+   padding:40px 0px;
+}
+
+#About_me{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: no-repeat fixed center center cover;
+    overflow: hidden;
+}
+
+
+.title h2{
+    
+    text-align: center;
+    font-family: cursive,serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+    color: #545045;
+}
+h3{
+        text-align: center;
+    font-family: cursive,serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+    color: #545045;
+}
+.pfoto_my{
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.pfoto_my .img{
+    border-radius: 70px;
+    box-shadow: 33px 31px 30px rgba(0,7,5,0.5);
+}
+.p_about{
+    font-family: cursive;
+    font-size: 23px;
+    color: #545045;
+    text-align: center;
+    font-weight: 600;
+}
+.About_me{
+        color: #545045;
+}
+
+.buttom{
+    margin-top: 8%;
+    text-align: center;
+}
+.len_mor{
+    padding: 16px 50px;
+    border-color: #99C48F;
+    background-color: #50BE29;
+    border-radius: 13px;
+    padding: 15px 40px;
+    color: #EEFCDB;
+}
+ .len_mor:hover{   
+    color:#fff;
+    background-color:  #91BC53;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.len_mor:visited{
+    text-decoration: none
+}
+.len_mor:active{
+    text-decoration: none
+}
+a:focus, a:hover{
+    text-decoration: none
+}
+
+.icon-round:hover  .apex-icon {
+    background-color: #fff;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+     transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon-round i{
+        width: 80px;
+    height: 80px;
+    font-size: 50px;
+    line-height: 84px;
+    color: #29bef0;
+    border: none;
+    border-radius: 40px;
+}
+
+.icon-round .apex-icon
+{
+   
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #29bef0;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+
+.title_icons{
+        display: block;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.len_mor:focus, a:hover {
+    text-decoration: none;
+}
+
+#myScils{
+    background-image: url(%D1%84%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#Portfolio{
+    background-color: azure;
+    
+}
+
+.portfolio img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.linlc{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.buttom{
+    padding-bottom: 30px;
+}
+#contact_my{
+    background-image: url(contackt%20us.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    
+}
+
+.liner{
+position: absolute;
+    left: 50%;
+    display: block;
+    border-top: 6px solid #29bef0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    height: 0;
+    width: 70px;
+    margin-left: -35px;
+}
+h3{
+    text-align: center;
+    padding: 20px 0px;
+}
+.about_portfolio{
+    padding-top: 25px;
+}
+
+
+buttom{
+    margin-top: 15%;
+}
+button{
+    border-color: #99C48F;
+    background-color: #50BE29;
+    border-radius: 13px;
+    padding: 15px 40px;
+    border: 1px solid;
+    color: #EEFCDB;
+    border-radius: 5px;
+}
+ button:hover{   
+    color: #fff;
+    background-color: #91BC53;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.buttoms{
+float: left;
+padding-bottom: 13px;
+margin: 20px 0px 50px 10px;
+background-color: #fff;
+opacity: 0.9;
+}
+.buttoms:hover{
+    background-color:#fff; 
+    color:#23527c;
+}
+
+.form-control {
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+    height: 55px;!important
+    padding: 6px 12px;
+    font-size: 19px;
+    line-height: 1.428571;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#exampleInputName  {
+    height: 50px;
+    font-size: 19px;
+}
+
+#exampleInputTel{
+    height: 50px;
+    font-size: 19px;
+}
+
+#exampleInputEmail1 {
+    height: 50px;
+    font-size: 19px;
+}
+#textRea{
+    font-size: 19px;
+}
+.wpcf7-form-control{
+    margin-top: 7%;
+}
+form-group {
+     margin-bottom: 0px; 
+}
+
+footer{
+    background-color: black;
+    
+}
+.foter_text{
+    color: #fff;
+    margin-top: 31px;
+}
+
+.fb i{
+     display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.3em;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.fb {
+    
+    float: none;
+    display: inline-block;
+    text-decoration: none !important;
+    margin: 0 4px 4px;
+}
+
+#About_me{
+    
+    background-attachment: fixed;
+}
+.my_skills{
+        color: #0E0E0E;
+}
+
+
+
+#min_menu li:hover{
+
+    background-color: #DDDDDD;
+    color: #fff;
+     transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+#scrol_menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+    z-index: 99;
+}
+
+
+
+
+
+@media screen and (min-width: 552px) { 
+  .foter_icon{ 
+      float: right;
+    }
+}
+
+#up_meny {
+position: fixed; /* фиксированная позиция */
+opacity: 0.8; /* прозрачность */
+padding: 15px 10px 10px; /* отступы */
+background: #aaa;
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+}
+
+
+
+
